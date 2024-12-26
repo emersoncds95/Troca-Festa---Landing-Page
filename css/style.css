@@ -215,9 +215,7 @@ footer img{
     .foto-tarifa{
         text-align: center;
     }
-    .comentario {
-        flex-direction: column-reverse;
-    }
+    
 }
 @media screen and (max-width: 425px){
     main{
