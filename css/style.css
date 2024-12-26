@@ -222,6 +222,7 @@ footer img{
     }
     input{
         width: 200px;
+        padding: 0px 8px;
     }
     .texto-campo-azul{
         margin-top: 20px;
