@@ -217,8 +217,11 @@ footer img{
     }
 }
 @media screen and (max-width: 425px){
+    main{
+        margin-top: 50px;
+    }
     input{
-        width: 250px;
+        width: 200px;
     }
     .texto-campo-azul{
         margin-top: 20px;
@@ -229,4 +232,9 @@ footer img{
     .botao-whats{
         font-size: 14px;
     }
+    .envia-whats button{
+        height: 40px;
+        width: 68px;
+    }
 }
+
