@@ -1,0 +1,232 @@
+*{
+    font-family: "Poppins", serif;
+}
+.logo{
+    margin-top: 30px;
+}
+/*---------MAIN------------*/
+main{
+    margin-top: 100px;
+}
+.texto-principal h1{
+    font-size: 48px;
+    font-weight: bold;
+}
+.texto-rosa{
+    color: #F46FC2;
+}
+.texto-azul{
+    color: #1C577C;
+}
+.texto-principal p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #929292;
+}
+input{
+    height: 50px;
+    width: 456px;
+    border-radius: 8px;
+    border: none;
+    outline: 1px solid #929292;
+    padding: 0 20px;
+    font-size: 14px;
+    font-weight: 200;
+}
+.envia-whats button{
+    background-color: #1C577C;
+    color: white;
+    height: 50px;
+    width: 88px;
+    border-radius: 8px;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+.envia-whats button:hover{
+    background-color: #3176a1;
+    transition: 0.3s;
+}
+.comentario{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.comentario img{
+    margin-top: -10px;
+}
+.comentario p{
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #929292
+}
+.foto-principal{
+    text-align: right;
+}
+
+/*---- campo azul -----*/
+.foto-campo-azul{
+    width: 100%;
+}
+.campo-azul{
+    background: url(../img/fundo-campo-azul.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 150px;
+    padding: 100px 0px;
+}
+.texto-campo-azul{
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.texto-campo-azul h2{
+    font-size: 20px;
+    font-weight: 600;
+}
+.texto-campo-azul p{
+    font-size: 16px;
+    font-weight: 200;
+}
+.campo-2{
+    margin-top: 50px;
+}
+/*------aplicativo------*/
+.aplicativo{
+    margin-top: 100px;
+}
+.titulo-app{
+    text-align: center;
+}
+.titulo-app h2{
+    color: #1C577C;
+    font-size: 20px;
+    font-weight: 600;
+}
+.accordion{
+    margin-top: 50px;
+}
+.botao-baixar-app{
+    text-align: center;
+}
+.botao-baixar-app button{
+    height: 50px;
+    padding: 0 20px;
+    background-color: #1C577C;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+}
+.botao-baixar-app button:hover{
+    background-color: #3176a1;
+    transition: 0.3s;
+}
+.foto-app{
+    text-align: center;
+}
+.accordion-button:not(.collapsed) {
+    color: #1C577C; 
+    background-color: #ffffff !important; 
+    box-shadow: inset 0 calc(-1* var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+}
+/*-----WHATS------*/
+.whatsapp{
+    margin-top: 100px;
+    text-align: center;
+    background: url(../img/fundo\ rosa.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0px;
+}
+.whatsapp h2{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.botao-whats{
+    height: 50px;
+    padding: 0 20px;
+    background-color: #1C577C;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+}
+.botao-whats:hover{
+    background-color: #3176a1;
+    transition: 0.3s;
+}
+/*-------tarifas--------*/
+.tarifas{
+    margin-top: 100px;
+}
+.titulo-tarifas{
+    text-align: center;
+}
+.titulo-tarifas h2{
+    color: #1C577C;
+    font-size: 20px;
+    font-weight: 600;
+}
+.lista{
+    margin-top: 50px !important;
+}
+.foto-tarifa{
+    text-align: right;
+}
+ul li{
+    font-size: 16px;
+}
+::marker{
+    color: #F46FC2;
+}
+/*footer*/
+footer{
+    margin-top: 100px;
+    padding: 50px 0px;
+    text-align: center;
+}
+footer img{
+    height: 200px !important;
+}
+
+
+/*---------------------RESPONSIVO-----------------------*/
+@media screen and (max-width: 1024px){
+    .texto-principal h1{
+        font-size: 28px;
+    }
+    input{
+        width: 300px;
+    }
+}
+@media screen and (max-width: 768px){
+    .foto-principal{
+        display: none;
+    }
+    .envia-whats{
+        text-align: center;
+    }
+    .foto-tarifa{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 425px){
+    input{
+        width: 250px;
+    }
+    .texto-campo-azul{
+        margin-top: 20px;
+    }
+    .foto-direita{
+        margin-top: 20px;
+    }
+    .botao-whats{
+        font-size: 14px;
+    }
+}
