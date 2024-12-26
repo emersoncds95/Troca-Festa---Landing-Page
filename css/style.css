@@ -148,6 +148,11 @@ input{
     font-size: 20px;
     font-weight: 600;
 }
+.whatsapp h4{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
 .botao-whats{
     height: 50px;
     padding: 0 20px;
@@ -213,6 +218,9 @@ footer img{
         text-align: center;
     }
     .foto-tarifa{
+        text-align: center;
+    }
+    .logo{
         text-align: center;
     }
     
